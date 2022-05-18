@@ -1,6 +1,6 @@
-﻿Console.WriteLine("Eerste git push!");
+﻿Console.WriteLine("Eerste git push! {0} {1} {2}","ABC", "DEF", "GHI");
 
-static int Optellen(int getal1, int getal2)
+static int Optellen(params int[] getallen)
 {
-    return getal1 + getal2;
+    return getallen.Sum(x=>x);
 }
