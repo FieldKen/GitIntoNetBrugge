@@ -1,4 +1,4 @@
-﻿Console.WriteLine("Eerste git push!");
+﻿Console.WriteLine("Eerste git push! {0} {1} {2}","ABC", "DEF", "GHI");
 
 public static class Extensions
 {   
